@@ -23,6 +23,11 @@ df_products_today.write.mode("overwrite").saveAsTable("temp")
 
 # COMMAND ----------
 
+# MAGIC %md
+# MAGIC The following snippet is written on assumption that if the product price for one item is updated two times in a single data file then the price which comes later in the table is considered
+
+# COMMAND ----------
+
 # MAGIC %sql
 # MAGIC CREATE table if NOT EXISTS silver.products(product_category string,
 # MAGIC    product_id bigint,

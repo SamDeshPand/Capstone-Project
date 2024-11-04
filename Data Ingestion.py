@@ -4,7 +4,7 @@
 
 # COMMAND ----------
 
-# MAGIC %fs ls dbfs:/mnt/adlssonydatabricks/raw/project1
+# MAGIC %fs ls dbfs:/mnt/adlssonydatabricks/raw/project1/products/
 
 # COMMAND ----------
 
